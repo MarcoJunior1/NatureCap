@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/LogoVerdeFolha.png" type="image/x-icon">
+    <title>NatureCap</title>
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Exo+2:wght@600&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navegação -->
+    <header class="header">
+    <nav class="nav container">
+        <a href="#home" class="nav__logo">
+            <img src="img/LogoVerdeEscuro.svg" 
+                 alt="NatureCap Logo" 
+                 class="logo__image">
+            <span class="logo__text">Nature<span class="cap">Cap</span></span>
+        </a>
+        
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">Sobre Nós</a></li>
+                <li class="nav__item"><a href="#technology" class="nav__link">Tecnologia</a></li>
+                <li class="nav__item"><a href="#impact" class="nav__link">Impacto</a></li>
+                <li class="nav__item"><a href="#products" class="nav__link">Produtos</a></li>
+                <li class="nav__item"><a href="#blog" class="nav__link">Blog</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+            </ul>
+            <div class="nav__close" id="nav-close">
+                <i class="ri-close-line"></i>
+            </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+        </div>
+    </nav>
+</header>
+
+    <main class="main">
+        <!-- Seção Hero -->
+        <section class="hero" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Tecnologia <span class="cap">Verde</span> para um Futuro <span class="cap">Sustentável</span></h1>
+                    <p class="hero__description">Unimos inovação e natureza para criar soluções que transformam o reflorestamento e a agricultura sustentável.</p>
+                    <div class="hero__buttons">
+                        <a href="#contact" class="button button--primary">Comece Agora</a>
+                        <a href="#technology" class="button button--secondary">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="img/capsula.png" alt="Drone Agrícola">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Nós -->
+        <section class="about section" id="about">
+            <div class="about__container container">
+                <div class="about__data">
+                    <span class="section__subtitle">Sobre Nós</span>
+                    <h2 class="section__title">Nossa História e Propósito</h2>
+                    <p class="about__description">A NatureCap nasceu da paixão por unir tecnologia e sustentabilidade para enfrentar os desafios ambientais do nosso tempo. Acreditamos que a inovação pode ser uma força poderosa para o bem do planeta.</p>
+                    
+                    <div class="about__details">
+                        <div class="about__detail">
+                            <h3 class="about__detail-title">Missão</h3>
+                            <p class="about__detail-description">Desenvolver soluções tecnológicas sustentáveis que acelerem o reflorestamento e promovam a agricultura regenerativa.</p>
+                        </div>
+                        <div class="about__detail">
+                            <h3 class="about__detail-title">Visão</h3>
+                            <p class="about__detail-description">Ser referência global em tecnologia verde, criando um impacto ambiental positivo mensurável em larga escala.</p>
+                        </div>
+                        <div class="about__detail">
+                            <h3 class="about__detail-title">Valores</h3>
+                            <p class="about__detail-description">Sustentabilidade, Inovação, Transparência, Colaboração e Impacto Positivo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__image">
+                    <img src="img/LogoVerdeFolha.png" alt="Reflorestamento">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Tecnologia -->
+        <section class="technology section" id="technology">
+            <div class="technology__container container">
+                <span class="section__subtitle">Nossa Tecnologia</span>
+                <h2 class="section__title">Inovação a Serviço da Natureza</h2>
+                
+                <div class="technology__content">
+                    <div class="technology__item">
+                        <div class="technology__icon">
+                            <img src="img/seedling-solid-full (1).svg" alt="Cápsula">
+                        </div>
+                        <h3 class="technology__title">Cápsulas Biodegradáveis</h3>
+                        <p class="technology__description">Nossas cápsulas são feitas de materiais 100% biodegradáveis que protegem as sementes e fornecem nutrientes essenciais para o crescimento inicial.</p>
+                    </div>
+                    
+                    <div class="technology__item">
+                        <div class="technology__icon">
+                            <img src="img/droneIcon.png" alt="Drone">
+                        </div>
+                        <h3 class="technology__title">Drones de Precisão</h3>
+                        <p class="technology__description">Utilizamos drones equipados com tecnologia de ponta para mapear áreas e plantar cápsulas com máxima eficiência e precisão.</p>
+                    </div>
+                    
+                    <div class="technology__item">
+                        <div class="technology__icon">
+                            <img src="img/inteligence.svg" alt="Monitoramento">
+                        </div>
+                        <h3 class="technology__title">Monitoramento Inteligente</h3>
+                        <p class="technology__description">Sistemas de monitoramento em tempo real acompanham o crescimento das plantas e o impacto ambiental de nossos projetos.</p>
+                    </div>
+                </div>
+                
+                <div class="technology__infographic">
+                    <h3 class="technology__infographic-title">Como Funciona Nossa Tecnologia</h3>
+                    <div class="infographic__steps">
+                        <div class="infographic__step">
+                            <div class="step__number">1</div>
+                            <p class="step__description">Seleção e preparo das sementes</p>
+                        </div>
+                        <div class="infographic__step">
+                            <div class="step__number">2</div>
+                            <p class="step__description">Encapsulamento em material biodegradável</p>
+                        </div>
+                        <div class="infographic__step">
+                            <div class="step__number">3</div>
+                            <p class="step__description">Mapeamento aéreo com drones</p>
+                        </div>
+                        <div class="infographic__step">
+                            <div class="step__number">4</div>
+                            <p class="step__description">Plantio preciso das cápsulas</p>
+                        </div>
+                        <div class="infographic__step">
+                            <div class="step__number">5</div>
+                            <p class="step__description">Monitoramento do crescimento</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Impacto Ambiental -->
+        <section class="impact section" id="impact">
+            <div class="impact__container container">
+                <span class="section__subtitle">Nosso Impacto</span>
+                <h2 class="section__title">Transformando Paisagens, Preservando o Futuro</h2>
+                
+                <div class="impact__metrics">
+                    <div class="metric">
+                        <h3 class="metric__number">50.000+</h3>
+                        <p class="metric__description">Árvores Plantadas</p>
+                    </div>
+                    <div class="metric">
+                        <h3 class="metric__number">500+</h3>
+                        <p class="metric__description">Hectares Reflorestados</p>
+                    </div>
+                    <div class="metric">
+                        <h3 class="metric__number">85%</h3>
+                        <p class="metric__description">Taxa de Sobrevivência</p>
+                    </div>
+                    <div class="metric">
+                        <h3 class="metric__number">15</h3>
+                        <p class="metric__description">Projetos Concluídos</p>
+                    </div>
+                </div>
+                
+                <div class="impact__testimonials">
+                    <h3 class="testimonials__title">O Que Dizem Nossos Parceiros</h3>
+                    <div class="testimonials__container">
+                        <div class="testimonial">
+                        <div class="testimonial__header">
+                            <img src="img/fazendeiro-3889260.webp" alt="Fulano de Tal" class="testimonial__photo">
+                            <div class="testimonial__info">
+                            </div>
+                        </div>
+                        <div class="testimonial__content">
+                            <p class="testimonial__text">"Depoimento da pessoa aqui..."</p>
+                            <p class="testimonial__author">- João Santos, Agricultor</p>
+                        </div>
+                    </div>
+                        <div class="testimonial">
+                        <div class="testimonial__header">
+                            <img src="fotos/fulano.jpg" alt="Fulano de Tal" class="testimonial__photo">
+                            <div class="testimonial__info">
+                            </div>
+                        </div>
+                        <div class="testimonial__content">
+                            <p class="testimonial__text">"Depoimento da pessoa aqui..."</p>
+                            <p class="testimonial__author">- João Santos, Agricultor</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="impact__before-after">
+                    <h3 class="before-after__title">Antes e Depois</h3>
+                    <div class="before-after__container">
+                        <div class="before-after__item">
+                            <div class="before">
+                                <h4>Antes</h4>
+                                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjODA4MDgwIi8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmb250LWZhbWlseT0iUG9wcGlucyIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSIxNiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiPkFyZWEgRGVzZWFkYTwvdGV4dD4KPC9zdmc+" alt="Área Desmatada">
+                            </div>
+                            <div class="after">
+                                <h4>Depois</h4>
+                                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSJ2YXIoLS1jb2xvci1zZWNvbmRhcnkpIi8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmb250LWZhbWlseT0iUG9wcGlucyIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSIxNiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0idmFyKC0tY29sb3ItZGFyaykiPkFyZWEgUmVmbG9yZXN0YWRhPC90ZXh0Pgo8L3N2Zz4=" alt="Área Reflorestada">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Produtos e Serviços -->
+        <section class="products section" id="products">
+            <div class="products__container container">
+                <span class="section__subtitle">Nossas Soluções</span>
+                <h2 class="section__title">Produtos e Serviços</h2>
+                
+                <div class="products__content">
+                    <div class="product__card">
+                        <div class="product__image">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjE1MCIgdmlld0JveD0iMCAwIDIwMCAxNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMTUwIiByeD0iMTAiIGZpbGw9InZhcigtLWNvbG9yLWxpZ2h0KSIvPgo8dGV4dCB4PSIxMDAiIHk9Ijc1IiBmb250LWZhbWlseT0iUG9wcGlucyIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSIxNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0idmFyKC0tY29sb3ItZGFyaykiPkNhcHN1bGFzIEJpb2RlZ3JhZGF2ZWlzPC90ZXh0Pgo8L3N2Zz4=" alt="Cápsulas Biodegradáveis">
+                        </div>
+                        <div class="product__info">
+                            <h3 class="product__title">Cápsulas Biodegradáveis</h3>
+                            <p class="product__description">Nossas cápsulas contêm sementes selecionadas e nutrientes essenciais para garantir alta taxa de germinação.</p>
+                            <a href="#contact" class="product__button">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product__card">
+                        <div class="product__image">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjE1MCIgdmlld0JveD0iMCAwIDIwMCAxNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMTUwIiByeD0iMTAiIGZpbGw9InZhcigtLWNvbG9yLWFjY2VudCkiLz4KPHRleHQgeD0iMTAwIiB5PSI3NSIgZm9udC1mYW1pbHk9IlBvcHBpbnMiIGZvbnQtd2VpZ2h0PSI5MDAiIGZvbnQtc2l6ZT0iMTQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9InZhcigtLWNvbG9yLWRhcmsiIj5Tb2x1w6fDtWVzIHBhcmEgQWdyaWN1bHRvcmVzPC90ZXh0Pgo8L3N2Zz4=" alt="Soluções para Agricultores">
+                        </div>
+                        <div class="product__info">
+                            <h3 class="product__title">Soluções para Agricultores</h3>
+                            <p class="product__description">Tecnologia de precisão para aumentar a produtividade e sustentabilidade na agricultura.</p>
+                            <a href="#contact" class="product__button">Saiba Mais</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product__card">
+                        <div class="product__image">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjE1MCIgdmlld0JveD0iMCAwIDIwMCAxNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMTUwIiByeD0iMTAiIGZpbGw9InZhcigtLWNvbG9yLXByaW1hcnkpIi8+Cjx0ZXh0IHg9IjEwMCIgeT0iNzUiIGZvbnQtZmFtaWx5PSJQb3BwaW5zIiBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjE0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJ2YXIoLS1jb2xvci1kYXJrKSI+UHJvamV0b3MgZGUgUmVmbG9yZXN0YW1lbnRvPC90ZXh0Pgo8L3N2Zz4=" alt="Projetos de Reflorestamento">
+                        </div>
+                        <div class="product__info">
+                            <h3 class="product__title">Projetos de Reflorestamento</h3>
+                            <p class="product__description">Soluções completas para recuperação de áreas degradadas e compensação ambiental.</p>
+                            <a href="#contact" class="product__button">Conhecer Projetos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Blog -->
+        <section class="blog section" id="blog">
+            <div class="blog__container container">
+                <span class="section__subtitle">Conteúdo Educativo</span>
+                <h2 class="section__title">Blog NatureCap</h2>
+                
+                <div class="blog__content">
+                    <article class="blog__post">
+                        <div class="post__image">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSJ2YXIoLS1jb2xvci1zZWNvbmRhcnkpIi8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmb250LWZhbWlseT0iUG9wcGlucyIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSIxNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0idmFyKC0tY29sb3ItZGFyaykiPkFncmljdWx0dXJhIFN1c3RlbnTDoXZlbDwvdGV4dD4KPC9zdmc+" alt="Agricultura Sustentável">
+                        </div>
+                        <div class="post__content">
+                            <h3 class="post__title">O Futuro da Agricultura Sustentável</h3>
+                            <p class="post__excerpt">Como a tecnologia está revolucionando a forma como cultivamos alimentos de maneira sustentável.</p>
+                            <a href="#" class="post__link">Ler Mais</a>
+                        </div>
+                    </article>
+                    
+                    <article class="blog__post">
+                        <div class="post__image">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSJ2YXIoLS1jb2xvci1hY2NlbnQpIi8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmb250LWZhbWlseT0iUG9wcGlucyIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSIxNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0idmFyKC0tY29sb3ItZGFyaykiPlRlY25vbG9naWEgZGUgUmVmbG9yZXN0YW1lbnRvPC90ZXh0Pgo8L3N2Zz4=" alt="Tecnologia de Reflorestamento">
+                        </div>
+                        <div class="post__content">
+                            <h3 class="post__title">Tecnologia de Reflorestamento em Larga Escala</h3>
+                            <p class="post__excerpt">Conheça como os drones estão transformando o reflorestamento em todo o mundo.</p>
+                            <a href="#" class="post__link">Ler Mais</a>
+                        </div>
+                    </article>
+                    
+                    <article class="blog__post">
+                        <div class="post__image">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSJ2YXIoLS1jb2xvci1wcmltYXJ5KSIvPgo8dGV4dCB4PSIxNTAiIHk9IjEwMCIgZm9udC1mYW1pbHk9IlBvcHBpbnMiIGZvbnQtd2VpZ2h0PSI5MDAiIGZvbnQtc2l6ZT0iMTQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9InZhcigtLWNvbG9yLWRhcmspIj5CZW5lZmljaW9zIGRvIFJlZmxvcmVzdGFtZW50bzwvdGV4dD4KPC9zdmc+" alt="Benefícios do Reflorestamento">
+                        </div>
+                        <div class="post__content">
+                            <h3 class="post__title">Os Benefícios do Reflorestamento para o Ecossistema</h3>
+                            <p class="post__excerpt">Entenda como o plantio de árvores impacta positivamente a biodiversidade e o clima.</p>
+                            <a href="#" class="post__link">Ler Mais</a>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="blog__cta">
+                    <a href="#" class="button button--primary">Ver Todos os Artigos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section class="contact section" id="contact">
+            <div class="contact__container container">
+                <div class="contact__content">
+                    <span class="section__subtitle">Entre em Contato</span>
+                    <h2 class="section__title">Vamos Trabalhar Juntos por um Futuro Sustentável</h2>
+                    <p class="contact__description">Tem um projeto em mente ou quer saber mais sobre nossas soluções? Entre em contato conosco!</p>
+                    
+                    <div class="contact__info">
+                        <div class="contact__item">
+                            <h3 class="contact__item-title">Email</h3>
+                            <p class="contact__item-info">contato@naturecap.com</p>
+                        </div>
+                        <div class="contact__item">
+                            <h3 class="contact__item-title">Telefone</h3>
+                            <p class="contact__item-info">+55 (11) 99999-9999</p>
+                        </div>
+                        <div class="contact__item">
+                            <h3 class="contact__item-title">Endereço</h3>
+                            <p class="contact__item-info">São Paulo, SP - Brasil</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact__form">
+                    <form action="#" class="form">
+                        <div class="form__group">
+                            <input type="text" placeholder="Seu Nome" class="form__input" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="email" placeholder="Seu Email" class="form__input" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="text" placeholder="Assunto" class="form__input" required>
+                        </div>
+                        <div class="form__group">
+                            <textarea placeholder="Sua Mensagem" class="form__textarea" required></textarea>
+                        </div>
+                        <button type="submit" class="button button--primary form__button">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <a href="#" class="footer__logo">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTUwIDUwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTUwIiBoZWlnaHQ9IjUwIiByeD0iNSIgZmlsbD0idmFyKC0tY29sb3ItcHJpbWFyeSkiLz4KPHRleHQgeD0iNzUiIHk9IjMwIiBmb250LWZhbWlseT0iUG9wcGlucyIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSIyNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0idmFyKC0tY29sb3ItbGlnaHQ"> 
+                        <script src="script.js"></script>
+                        
+                        
