@@ -28,8 +28,7 @@
                 <li class="nav__item"><a href="#about" class="nav__link">Sobre Nós</a></li>
                 <li class="nav__item"><a href="#technology" class="nav__link">Tecnologia</a></li>
                 <li class="nav__item"><a href="#impact" class="nav__link">Impacto</a></li>
-                <li class="nav__item"><a href="#products" class="nav__link">Produtos</a></li>
-                <li class="nav__item"><a href="#blog" class="nav__link">Blog</a></li>
+                <li class="nav__item"><a href="#gallery" class="nav__link">Nos Veja</a></li>
                 <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
             </ul>
             <div class="nav__close" id="nav-close">
@@ -202,26 +201,103 @@
                     </div>
                 </div>
                 
-                <div class="impact__before-after">
+                <!--<div class="impact__before-after">
                     <h3 class="before-after__title">Antes e Depois</h3>
                     <div class="before-after__container">
                         <div class="before-after__item">
                             <div class="before">
                                 <h4>Antes</h4>
-                                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjODA4MDgwIi8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmb250LWZhbWlseT0iUG9wcGlucyIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSIxNiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiPkFyZWEgRGVzZWFkYTwvdGV4dD4KPC9zdmc+" alt="Área Desmatada">
+                                <img src="img/antes.jpeg" alt="Área Desmatada">
                             </div>
                             <div class="after">
                                 <h4>Depois</h4>
-                                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSJ2YXIoLS1jb2xvci1zZWNvbmRhcnkpIi8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmb250LWZhbWlseT0iUG9wcGlucyIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSIxNiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0idmFyKC0tY29sb3ItZGFyaykiPkFyZWEgUmVmbG9yZXN0YWRhPC90ZXh0Pgo8L3N2Zz4=" alt="Área Reflorestada">
+                                <img src="img/depois.jpeg" alt="Área Reflorestada">
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </section>
 
+        <section class="gallery section" id="gallery">
+    <div class="gallery__container">
+        <div class="gallery__header">
+            <span class="section__subtitle">Nossos Projetos</span>
+            <h2 class="gallery__title">Galeria de Impacto</h2>
+            <p class="gallery__description">Conheça os resultados visíveis do nosso trabalho em reflorestamento e agricultura sustentável</p>
+        </div>
+        
+        <div class="gallery__slider-container">
+            <div class="gallery__track" id="gallery-track">
+                <!-- Slide 1 -->
+                <div class="gallery__slide active">
+                    <img src="img/foto.jpeg"  alt="Projeto de Reflorestamento 1"  class="gallery__image" loading="lazy">
+                    <!--<div class="gallery__caption">
+                        <h3 class="gallery__caption-title">Reflorestamento na Mata Atlântica</h3>
+                        <p class="gallery__caption-text">Área de 50 hectares recuperada com espécies nativas</p>
+                    </div>-->
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="gallery__slide active">
+                    <img src="img/foto2.jpeg"  alt="Agricultura Sustentável"  class="gallery__image" loading="lazy">
+                    
+                </div>
+                
+                <!-- Slide 3 -->
+                <div class="gallery__slide">
+                    <img src="img/foto8.jpeg"  alt="Cápsulas Biodegradáveis"  class="gallery__image" loading="lazy">
+                    
+                </div>
+                
+                <!-- Slide 4 -->
+                <div class="gallery__slide">
+                    <img src="img/foto4.jpeg"  alt="Comunidade Local"  class="gallery__image" loading="lazy">
+                    
+                </div>
+                
+                <!-- Slide 5 -->
+                <div class="gallery__slide">
+                    <img src="img/foto5.jpeg"  alt="Projeto de Reflorestamento 2"  class="gallery__image" loading="lazy">
+                    
+                </div>
+                
+                <!-- Slide 6 -->
+                <div class="gallery__slide">
+                    <img src="img/foto6.jpeg"  alt="Tecnologia de Drones"  class="gallery__image" loading="lazy">
+                    
+                </div>
+            </div>
+        </div>
+        
+        <!-- Controles -->
+        <div class="gallery__controls">
+            <button class="gallery__btn" id="gallery-prev" aria-label="Slides anteriores">‹</button>
+            
+            <div class="gallery__dots" id="gallery-dots" role="tablist">
+                <!-- Os dots serão gerados pelo JavaScript -->
+            </div>
+            
+            <button class="gallery__btn" id="gallery-next" aria-label="Próximos slides">›</button>
+        </div>
+        
+        <!-- Barra de progresso -->
+        <div class="gallery__progress">
+            <div class="gallery__progress-bar" id="gallery-progress"></div>
+        </div>
+        
+        <!-- Miniaturas -->
+        <div class="gallery__thumbnails">
+            <div class="gallery__thumbnail-track" id="gallery-thumbnails">
+                <!-- As miniaturas serão geradas pelo JavaScript -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
         <!-- Seção Produtos e Serviços -->
-        <section class="products section" id="products">
+        <!--<section class="products section" id="products">
             <div class="products__container container">
                 <span class="section__subtitle">Nossas Soluções</span>
                 <h2 class="section__title">Produtos e Serviços</h2>
@@ -262,7 +338,7 @@
                 </div>
             </div>
         </section>
-
+    -->
         <!-- Seção Blog -->
         <section class="blog section" id="blog">
             <div class="blog__container container">
@@ -356,12 +432,190 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="footer__container container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <a href="#" class="footer__logo">
-                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTUwIDUwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTUwIiBoZWlnaHQ9IjUwIiByeD0iNSIgZmlsbD0idmFyKC0tY29sb3ItcHJpbWFyeSkiLz4KPHRleHQgeD0iNzUiIHk9IjMwIiBmb250LWZhbWlseT0iUG9wcGlucyIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSIyNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0idmFyKC0tY29sb3ItbGlnaHQ"> 
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__content">
+            <!-- Coluna da Logo e Informações -->
+            <div class="footer__brand">
+                <div class="footer__logo-section">
+                    <img src="img/LogoVerdeFolha.png" 
+                         alt="NatureCap Logo" 
+                         class="footer__logo">
+                    <div class="footer__logo-text">Nature<span class="cap">Cap</span></div>
+                </div>
+                
+                <p class="footer__description">
+                    Líder em tecnologia sustentável para reflorestamento e agricultura regenerativa. 
+                    Unimos inovação e natureza para criar um impacto ambiental positivo mensurável.
+                </p>
+                
+                <div class="footer__contact-info">
+                    <div class="footer__contact-item">
+                        <i class="ri-map-pin-line footer__contact-icon"></i>
+                        <span>Av. Sustentabilidade, 123 - São Paulo, SP</span>
+                    </div>
+                    <div class="footer__contact-item">
+                        <i class="ri-phone-line footer__contact-icon"></i>
+                        <span>+55 (11) 99999-9999</span>
+                    </div>
+                    <div class="footer__contact-item">
+                        <i class="ri-mail-line footer__contact-icon"></i>
+                        <span>contato@naturecap.com</span>
+                    </div>
+                </div>
+                
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link" aria-label="Facebook">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Instagram">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="YouTube">
+                        <i class="ri-youtube-line"></i>
+                    </a>
+                </div>
+                
+                <div class="footer__badge">
+                    <i class="ri-leaf-line"></i>
+                    Empresa Carbon Neutral
+                </div>
+            </div>
+
+            <!-- Links Rápidos -->
+            <div class="footer__column">
+                <h3>Links Rápidos</h3>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#home" class="footer__link">
+                            <i class="ri-home-4-line footer__link-icon"></i>
+                            Início
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="footer__link">
+                            <i class="ri-information-line footer__link-icon"></i>
+                            Sobre Nós
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#technology" class="footer__link">
+                            <i class="ri-cpu-line footer__link-icon"></i>
+                            Tecnologia
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#impact" class="footer__link">
+                            <i class="ri-line-chart-line footer__link-icon"></i>
+                            Impacto
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#products" class="footer__link">
+                            <i class="ri-store-2-line footer__link-icon"></i>
+                            Produtos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Serviços -->
+            <div class="footer__column">
+                <h3>Nossos Serviços</h3>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#products" class="footer__link">
+                            <i class="ri-seedling-line footer__link-icon"></i>
+                            Cápsulas Biodegradáveis
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#products" class="footer__link">
+                            <i class="ri-drone-line footer__link-icon"></i>
+                            Plantio com Drones
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#products" class="footer__link">
+                            <i class="ri-tree-line footer__link-icon"></i>
+                            Projetos de Reflorestamento
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#technology" class="footer__link">
+                            <i class="ri-bar-chart-line footer__link-icon"></i>
+                            Monitoramento Ambiental
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">
+                            <i class="ri-customer-service-2-line footer__link-icon"></i>
+                            Consultoria Sustentável
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer__column">
+                <h3>Newsletter</h3>
+                <p class="footer__newsletter-text">
+                    Receba atualizações sobre nossos projetos e novidades em tecnologia sustentável.
+                </p>
+                <form class="footer__newsletter-form">
+                    <input type="email" 
+                           class="footer__newsletter-input" 
+                           placeholder="Seu melhor email"
+                           required>
+                    <button type="submit" class="footer__newsletter-btn">
+                        <i class="ri-send-plane-line"></i>
+                    </button>
+                </form>
+                
+                <h3 style="margin-top: var(--spacing-lg);">Recursos</h3>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#blog" class="footer__link">
+                            <i class="ri-article-line footer__link-icon"></i>
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">
+                            <i class="ri-file-paper-2-line footer__link-icon"></i>
+                            Cases de Sucesso
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">
+                            <i class="ri-download-line footer__link-icon"></i>
+                            Materiais Gratuitos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Bottom do Footer -->
+        <div class="footer__bottom">
+            <div class="footer__copyright">
+                © 2024 NatureCap. Todos os direitos reservados. Site Criado pela Nexy Corp
+                <span style="display: block; margin-top: 5px; opacity: 0.6;">
+                    CNPJ: 12.345.678/0001-90
+                </span>
+            </div>
+            
+            <div class="footer__legal-links">
+                <a href="#" class="footer__legal-link">Política de Privacidade</a>
+                <a href="#" class="footer__legal-link">Termos de Uso</a>
+                <a href="#" class="footer__legal-link">Cookies</a>
+            </div>
+        </div>
+    </div>
+</footer>
                         <script src="script.js"></script>
                         
                         
